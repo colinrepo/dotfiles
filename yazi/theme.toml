@@ -1,0 +1,43 @@
+# yazi主题配置：https://yazi-rs.github.io/docs/configuration/theme
+# yazi主题仓库：https://github.com/yazi-rs/flavors
+# dracula主题：https://github.com/yazi-rs/flavors/tree/main/dracula.yazi
+
+# 在~/.config/yazi目录下终端中执行：
+# 获取dracula主题：ya pkg add yazi-rs/flavors:dracula
+# 获取catppuccin-mocha主题：ya pkg add yazi-rs/flavors:catppuccin-mocha
+# 获取catppuccin-latte主题：ya pkg add yazi-rs/flavors:catppuccin-latte
+# 获取catppuccin-frappe主题：ya pkg add yazi-rs/flavors:catppuccin-frappe
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:catppuccin-macchiato
+
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:tokyo-night
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:kanagawa
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:kanagawa-dragon
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:kanagawa-lotus
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:gruvbox-dark
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:grovbox-material
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:ayu-dark
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:everforest-medium
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:ashen
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:flexoki-dark
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:flexoki-light
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:rose-pine
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:rose-pine-moon
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:rose-pine-dawn
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:neon
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:nord
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:synthwave84
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:bluloco-dark
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:bluloco-light
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:monokai
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:eldritch
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:modus
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:obsidian-glow
+# 获取catppuccin-macchiato主题：ya pkg add yazi-rs/flavors:obsidian-soft-glow
+
+
+[flavor]
+dark = "dracula"
+# dark = "catppuccin-mocha"
+# dark = "catppuccin-latte"
+# dark = "catppuccin-frappe"
+# dark = "catppuccin-macchiato"

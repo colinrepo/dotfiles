@@ -1,0 +1,22 @@
+# 配置定义参考：https://yazi-rs.github.io/docs/configuration/yazi
+
+[mgr]
+ratio = [1, 3, 4]			# 1/8 width for parent, 3/8 width for current, 4/8 width for preview
+sort_by = "alphabetical"		# 按字母顺序方式排序
+sort_sensitive = false			# false:排序时大小写不敏感，大写和小写都视为一样，都坐一桌排序；true:排序时大写排序坐一桌，小写排序坐一桌
+sort_reverse = false			# false:按照sort_by指定的顺序排序；true：按照sort_by制定的顺序反向排序
+sort_dir_first = true			# false: 目录和文件会混合在一起，根据 sort_by 和 reverse 的设置进行统一排序; true:启用“目录优先”排序。无论 sort_by 设置为何种方式，所有目录都会被显示在文件列表的最前面，然后才是普通文件
+sort_translit = true			# 排序时音译文件名，仅仅在sort_by="natural"时有用，这对于匈牙利字符文件很有用
+linemode = "size_and_mtime"		# 在文件列表项的最右侧显示信息, size_and_mtime为自定义函数，见init.lua
+show_hidden = true			# 默认是否显示隐藏文件
+show_symlink = true			# true:当文件列表项是符号链接时，会在该文件的文件名后面显示一个箭头以及它所指向的目标文件或目录的路径
+scrolloff = 5				# 用来设置光标周围的“安全边距”，让浏览文件列表时上下文更清晰。设置一个较小的正值（如 3 或 5）是个不错的选择。
+mouse_events = ["click", "scroll"]	# 让你能够精细地控制哪些鼠标交互可以传递给 yazi 的插件进行处理
+title_format = "Yazi: {cwd}"		# 终端标题设置，cwd使得终端标题为当前文件的路径
+
+[preview]
+wrap = "yes"				# 在代码预览中换长行
+tab_size = 2				# 在代码预览中制表符的空格数
+
+
+
